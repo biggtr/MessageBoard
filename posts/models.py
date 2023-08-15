@@ -7,4 +7,4 @@ class Post(models.Model):
     text = models.TextField()
 
     def __str__(self) -> str:
-        return self.post[:50]
+        return self.text[:50]
